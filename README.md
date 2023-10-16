@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# CoachFit - An AI-driven Personal Trainer (POC)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Description
+CoachFit is a fully fledged personal trainer application that utilizes machine learning to help individuals access the same, curated & personalized training offered by a personal gym instructor. It uses PoseNet to map joints and Matrix Algebra to calculate angles & distances. The application is able to count repetitions/sets & provide advice on the workout's form in real-time. The Pitch Deck for CoachFit is available above. The POC can be run after extraction with ```npm run dev```.
 
-## Recommended IDE Setup
+### Tech Stack
+- PoseNet by ML5.js
+- Vue 3
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### APP-A-THON by SRM CINTEL
+CoachFit was created for a 24h Hackathon organized by SRM's Computational Intelligence dept. Team Superluminals (solo team) won IInd for the same, and received a cash prize. Judges were CINTEL's HOD & Group Lead Manager for HCL Tech.
+
+### Author's Note
+This POC is *not* the best way to execute CoachFit. A more effecient way would be to train models for the workouts.
