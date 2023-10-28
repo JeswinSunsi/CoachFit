@@ -1,7 +1,7 @@
 # CoachFit - An AI-driven Personal Trainer (POC)
 
 ### Description
-CoachFit is a fully fledged personal trainer application that utilizes machine learning to help individuals access the same, curated & personalized training offered by a personal gym instructor. It uses PoseNet to map joints and Matrix Algebra to calculate angles & distances. The application is able to count repetitions/sets & provide advice on the workout's form in real-time. The Pitch Deck for CoachFit is available above and can be referred to for more context & information. The POC can be run after extraction with ```npm i && npm run build && npm run preview```.
+CoachFit is a fully fledged personal trainer application that utilizes machine learning to help individuals access the same, curated & personalized training offered by a personal gym instructor. It uses PoseNet to map joints and Matrix Algebra to calculate angles & distances. The application is able to count repetitions/sets & provide advice on the workout's form in real-time. <ins>The Pitch Deck for CoachFit is available above</ins> and can be referred to for more context & information. The POC can be run after extraction with ```npm i && npm run build && npm run preview```.
 
 ### Tech Stack
 - PoseNet by ML5.js
